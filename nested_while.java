@@ -28,6 +28,80 @@ public class nested_while {
             }
             i++;
             System.out.println("");
+            
         }
+        System.out.println("Next Pattern");
+        
+        i=1;
+        while(i<=5){
+            int j=1;
+            while(j<=5){
+
+                if(i+j<=6)
+                    System.out.print(j+"\t");
+                    j++;
+            }
+            i++;
+            System.out.println("");
+        }
+        System.out.println("Next Pattern");
+        
+        i=1;
+        while(i<=5){
+            int j=1;
+            int k=5;
+            while(j<=5){
+
+                if(i+j<=6)
+                    System.out.print(k+"\t");
+                else
+                    System.out.print("");
+                    j++;
+                    k--;
+            }
+            i++;
+            System.out.println("");
+        }
+        System.out.println("Next Pattern");
+        
+        i=1;
+        while(i<=5){
+            int j=1;
+            while(i>=j){
+                if(j==i)
+                    System.out.print(i+"\t");
+                else
+                    System.out.print(1+"\t");
+                   
+                j++;    
+            }
+            i++;
+            System.out.println("");
+        }
+        System.out.println("Next Pattern");
+        
+        i=1;
+        while(i<=5){
+            int j=1;
+            while(j<=5){
+                if(i+j<=6)
+                    System.out.print(" ");
+                else
+                    System.out.print(j);
+                   
+                j++;
+            }
+            i++;
+            System.out.println("");
+        }
+        System.out.println("Next Pattern");
     }
 }
+
+/*
+    1
+   121
+  12321
+ 1234321
+123454321
+*/
